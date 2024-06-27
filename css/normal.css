@@ -1,0 +1,23 @@
+/* resetando config original */
+*{
+  padding: 0px;
+  margin: 0px;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  text-decoration: none;  
+
+}
+
+/* scroll */
+::-webkit-scrollbar-thumb{
+    background-color: rgb(25, 0, 255);
+    
+}
+    
+::-webkit-scrollbar{
+    background-color: rgb(255, 255, 255);
+    width: 14px;
+}
+    
+    
