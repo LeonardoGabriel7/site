@@ -5,6 +5,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    
    
 }
 .header {
@@ -80,4 +81,75 @@ main button.buttonCtr1{
     font-size: 20px;
     border-radius: 5px;
     margin-top: 30px;
+    margin-bottom: 150px;
+}
+
+
+
+
+
+/* div 02 */
+div.pagina02 {
+    width: 100%;
+    text-align: center;
+}
+
+div.container {
+    display: inline-block;
+    width: 90%;
+    max-width: 1500px;
+}
+
+div.caixa {
+    display: inline-block;
+    background-color: white;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 27%;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.caixa i {
+    font-size: 50px;
+    color: var(--cor-1);
+}
+
+.caixa h1 {
+    font-size: 27px;
+    margin-bottom: 6px;
+    margin-top: 8px;
+}
+
+.caixa p {
+    font-size: 19px;
+    color: var(--cor-2);
+    line-height: 1.4;
+}
+
+
+
+/* div 03 */
+div.pagina03{
+    text-align: center;
+}
+
+div.pagina03 h1{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+
+div.pagina03 p{
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+div.pagina03 iframe{
+    width: 760px;
+    height: 450px;
+    border-radius: 20px;
+    margin-bottom: 50px;
 }
