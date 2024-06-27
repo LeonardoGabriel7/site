@@ -73,7 +73,7 @@ main p.p2{
     }
 }
 
-main button.buttonCtr1{
+ button.buttonCtr1{
     background-color: var(--cor-1);
     color: var(--cor-3);
     width: 220px ;
@@ -92,6 +92,7 @@ main button.buttonCtr1{
 div.pagina02 {
     width: 100%;
     text-align: center;
+    height: 320px;
 }
 
 div.container {
@@ -130,26 +131,118 @@ div.caixa {
 }
 
 
-
 /* div 03 */
-div.pagina03{
+.pagina03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #F2F2F2;
+
+}
+.servicos {
+    background-color: var(--cor-1);
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.servicos h1{
+color: var(--cor-3);
+margin-top: 10px;
+margin-bottom: 35px;
+}
+
+.linha {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.coluna {
+    flex: 1;
+    padding: 0 10px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin: 25px 0;
+    color: var(--cor-3);
+}
+
+li i{
+    color: rgb(0, 255, 0);
+}
+
+button.buttonCtr2{
+    background-color: var(--cor-3);
+    color: var(--cor-2);
+    width: 180px ;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+/* div 04 */
+div.pagina04{
     text-align: center;
 }
 
-div.pagina03 h1{
+div.pagina04 h1{
     margin-top: 100px;
     margin-bottom: 10px;
     font-size: 35px;
 }
 
-div.pagina03 p{
+div.pagina04 p{
     margin-bottom: 20px;
     font-size: 19px;
 }
 
-div.pagina03 iframe{
+div.pagina04 iframe{
     width: 760px;
     height: 450px;
     border-radius: 20px;
     margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+/* div 05 */
+
+
+.conteudo {
+    flex: 1;
+}
+footer {
+    background-color: var(--cor-1);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+   
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+footer a:hover {
+    text-decoration: underline;
 }
