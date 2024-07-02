@@ -261,18 +261,20 @@ footer {
     background-color: var(--cor-1);
     color: #fff;
     text-align: center;
-    
+    height: 100px;
 }
 
 footer h1{
-    padding-top: 20px;
-    margin-bottom: 7px;
+    padding-top: 10px;
+    margin-bottom: 10px;
 }
 
-footer img{
-    width: 70px;
-    margin-left: 5px;
-    margin-right: 5px;
+footer i{
+    
+    font-size: 30px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
 }
 
 footer img:hover{
