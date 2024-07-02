@@ -22,4 +22,9 @@
     
 }
     
-    
+
+
+  /* Menu ancora suave */
+html{
+  scroll-behavior: smooth;
+}
