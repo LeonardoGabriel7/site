@@ -141,12 +141,12 @@ div.caixa {
     align-items: center;
     height: 500px;
     background-color: #F2F2F2;
-
 }
+
 .servicos {
     background-color: var(--cor-1);
-    width: 350px;
-    height: 400px;
+    width: 850px;
+    height: 410px;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 20px;
@@ -154,10 +154,10 @@ div.caixa {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.servicos h1{
-color: var(--cor-3);
-margin-top: 10px;
-margin-bottom: 35px;
+.servicos h1 {
+    color: var(--cor-3);
+    margin-top: 10px;
+    margin-bottom: 35px;
 }
 
 .linha {
@@ -165,35 +165,42 @@ margin-bottom: 35px;
     justify-content: space-between;
     margin-top: 20px;
 }
+
 .coluna {
     flex: 1;
     padding: 0 10px;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
+
 li {
     margin: 25px 0;
     color: var(--cor-3);
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    
 }
 
-li i{
+li i {
     color: rgb(0, 255, 0);
+    margin-left: 35px;
 }
 
-button.buttonCtr2{
+button.buttonCtr2 {
     background-color: var(--cor-3);
     color: var(--cor-2);
-    width: 180px ;
+    width: 180px;
     height: 40px;
     font-size: 20px;
     border-radius: 5px;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
-
 
 
 
