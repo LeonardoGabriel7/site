@@ -37,3 +37,22 @@
         height: 50px;
     }
 }
+
+/* pagina 2 */
+
+@media (max-width: 768px) {
+    .pagina02 .container {
+        width: 100%;
+    }
+
+    .pagina02 .caixa {
+        width: 100%;
+        display: block;
+        margin-top: -25px;
+    }
+
+    .pagina02 .caixa p{
+        margin: 0px 30px;
+    }
+}
+
