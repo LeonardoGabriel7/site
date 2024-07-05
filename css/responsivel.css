@@ -18,6 +18,8 @@
 
 @media (max-width: 768px) {
     
+
+
     main p.p1{
         font-size: 14px;
         margin-top: 21px;
@@ -43,6 +45,7 @@
 @media (max-width: 768px) {
     .pagina02 .container {
         width: 100%;
+        max-width: 100%;
     }
 
     .pagina02 .caixa {
