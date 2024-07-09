@@ -20,9 +20,16 @@ body {
 }
 
 .header .logo {
+    display: flex; /* Alinha itens horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 10px; /* Espaço entre a imagem e o texto */
     font-size: 33px;
     font-weight: bold;
     color: var(--cor-2);
+}
+
+.header .logo img{
+    width: 50px;
 }
 
 .header nav {
@@ -152,8 +159,8 @@ div.caixa {
 
 .servicos {
     background-color: var(--cor-1);
-    width: 445px;
-    height: 540px;
+    width: 450px;
+    height: 500px;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 20px;
@@ -166,17 +173,20 @@ div.caixa {
     color: var(--cor-3);
     margin-top: 10px;
     margin-bottom: 7px;
+    
 }
 
 .servicos p{
     color: white;
     margin-top: 7px;
-    margin-top: 7px;
-    margin-bottom: -7px;
+    margin-bottom: -20px;
+   
 }
 
 .servicos p.preco{
     font-size: 30px;
+    margin-bottom: 7px;
+    
 }
 
 .linha {
@@ -213,7 +223,7 @@ li i {
 .linha-separadora {
     border: none;
     border-top: 1px solid #ccc;
-    margin: -10px 0;
+    margin: 8px 0;
 }
 
 .buttonCtr2 {
