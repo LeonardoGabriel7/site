@@ -84,7 +84,22 @@
         padding: 0;
         margin-bottom: 20px;
     }
+
+    @media (max-width: 768px) {
+        .pagina03 {
+            flex-direction: column; 
+            
+        }
+
+        .servicos {
+            margin: 20px 0; /* Adiciona espaço entre os elementos no telefone */
+        }
+    }
+
+
 }
+
+
 
 /* pagina 4 */
 

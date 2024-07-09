@@ -158,13 +158,25 @@ div.caixa {
     border: 1px solid #ccc;
     border-radius: 20px;
     padding: 20px;
+    margin: 0px 13px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .servicos h1 {
     color: var(--cor-3);
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 7px;
+}
+
+.servicos p{
+    color: white;
+    margin-top: 7px;
+    margin-top: 7px;
+    margin-bottom: -7px;
+}
+
+.servicos p.preco{
+    font-size: 30px;
 }
 
 .linha {
