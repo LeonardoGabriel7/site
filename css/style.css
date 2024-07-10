@@ -173,7 +173,6 @@ div.caixa {
     color: var(--cor-3);
     margin-top: 10px;
     margin-bottom: 7px;
-    
 }
 
 .servicos p{
@@ -186,7 +185,6 @@ div.caixa {
 .servicos p.preco{
     font-size: 30px;
     margin-bottom: 7px;
-    
 }
 
 .linha {
@@ -243,9 +241,6 @@ li i {
     transform: scale(1.1);
     transition: 1s;
 }
-
-
-
 
 
 /* div 04 */
